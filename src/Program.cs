@@ -41,6 +41,9 @@ namespace src.blocks
                 case "association":
                     Association.Run();
                     break;
+                case "instanceversusstatic":
+                    InstanceVersusStatic.Run();
+                    break;
             }
         }
     }
