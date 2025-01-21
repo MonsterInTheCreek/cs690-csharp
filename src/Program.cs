@@ -44,6 +44,9 @@ namespace src.blocks
                 case "instanceversusstatic":
                     InstanceVersusStatic.Run();
                     break;
+                case "interface":
+                    Interface.Run();
+                    break;
             }
         }
     }
