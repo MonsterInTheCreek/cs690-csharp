@@ -47,6 +47,9 @@ namespace src.blocks
                 case "interface":
                     Interface.Run();
                     break;
+                case "badinheritance":
+                    BadInheritance.Run();
+                    break;
             }
         }
     }
